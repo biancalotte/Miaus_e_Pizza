@@ -1,0 +1,16 @@
+* {
+box-sizing: border-box;
+
+}
+
+html { 
+    scroll-behavior: smooth;
+} 
+
+body {
+margin: 0;
+font-family: "Gorditas" , system-ui, Arial, Helvetica, sans-serif ;
+color: #97c997;
+background: #fff;
+line-height: 1.6;
+}
