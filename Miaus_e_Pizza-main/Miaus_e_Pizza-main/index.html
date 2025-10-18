@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Miaus e Pizza</h1>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="topbar"> 
+        <div class="container row">
+            <a class="logo" href="#">Miaus e Pizza</a>
+            <nav>
+                <a href="#Sobre">Sobre</a>
+                <a href="#Cardapio">Cardapio</a>
+                <a href="#Contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="Sobre">
+            <div class="container hero-wrap">
+                <div class="hero-text">
+                    <title> Miaus e Pizza </title>
+                    <link rel="preconnect" href="https://fonts.googleapis.com">
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+                    <link rel="stylesheet" href="style.css">
+                <p>Bem vindo ao nosso forno mágico!!!! Cuidamos do seu estômago e seus gatinhos😻🐾🍕</p>
+                </div>
+
+                <figure class="hero-img">
+                    <img src="miaus.png" width="700" height="600"
+                        alt="Um gato de avental e chapéu segurando uma pizza de pepperoni" />
+                </figure>
+            </div>
+        </section>
+        <section id="Cardapio">
+            <div class="menu-grid">
+                <!-- item 1 -->
+                <article class="item">
+                    <figure class="thumb">
+                        <img src="img/margherita.jpg" width="500" height="400" alt="uma pizza de margherita.">
+                    </figure>
+                    <h3>Pizza Miaugherita ☝😽🍃</h3>
+                    <p>ingredientes: Massa, molho de tomate, mussarela, manjericão, azeite.</p>
+                    <span class="price">R$ 45,00</span>
+                </article>
+                <!-- item 2 -->
+                <article class="item">
+                    <figure class="thumb">
+                        <img src="img/veg.jpg" width="500" height="400" alt="uma pizza vegetariana.">
+                    </figure>
+                    <h3>Pizza vegetarianya ☝😽🌱</h3>
+                    <p>ingredientes: Massa, molho de tomate, mussarela, cogumelos, pimentões, cebola, abobrinha, azeitonas,
+                        tomates cereja.</p>
+                    <span class="price" >R$ 39,00</span>
+                </article>
+                <!-- item 3 -->
+                <article class="item">
+                    <figure class="thumb">
+                        <img src="img/queijo.jpg" width="500" height="400" alt="uma pizza de queijo.">
+                    </figure>
+                    <h3>Pizza quatro queijos ☝😽🧀</h3>
+                    <p>ingredientes: Massa, molho de tomate, mussarela, parmesão, provolone, gorgonzola.</p>
+                    <span class="price">R$ 35,00</span>
+                </article>
+                <!-- item 4 -->
+                <article class="item">
+                    <figure class="thumb">
+                        <img src="img/bai.jpg" width="500" height="400" alt="uma pizza baiana.">
+                    </figure>
+                    <h3>Pizza Baianya ☝😽🌶</h3>
+                    <p>ingredientes: Massa, molho de tomate, mussarela, calabresa, pimentões, cebola, azeitona, pimenta
+                        dedo-de-moça.</p>
+                    <span class="price">R$ 35,00</span>
+                </article>
+                <!-- item 5 -->
+                <article class="item">
+                    <figure class="thumb">
+                        <img src="img/pep2.jpg" width="500" height="400" alt="uma pizza de pepperoni.">
+                    </figure>
+                    <h3>Pizza pepperonya ☝😽🍖</h3>
+                    <p>ingredientes: Massa, molho de tomate, mussarela, pepperoni, orégano.</p>
+                    <span class="price">R$ 35,00</span>
+                </article>
+                <!-- item 6 -->
+                <article class="item">
+                    <figure class="thumb">
+                        <img src="img/morango2.jpg" width="500" height="400" alt="uma pizza de morango.">
+                    </figure>
+                    <h3>Pizza Morango com chocolate ☝😽🍓🍫</h3>
+                    <p>ingredientes: Massa, creme de chocolate, morangos, açúcar, chantilly.</p>
+                    <span class="price">R$ 25,00</span>
+                </article>
+            </div>
+        </section>
+        <section class="container contact-grid" id="Contato">
+            <div> 
+                 <h3> Por favor, fale com os miaus quando precisar!🐱📞</h3>
+                <form>
+                    <label>
+                        Nome:
+                        <input type="text" placeholder="Digite aqui seu nome." name="nome" required />
+                    </label>
+                    <label>
+                        Telefone 📞
+                        <input type="tel" placeholder="Digite o seu número de telefone 📲" required>
+                    </label>
+                    <label>
+                        Mensagem
+                        <textarea name="mensagem" placeholder="Escreva sua mensagem. Respondemos em minutos!"
+                            rows="5"></textarea>
+                    </label>
+                    <input class="btn" type="submit">
+                </form>
+            </div>
+            <div>
+                <p> 🌷ENDEREÇO DOS MIAUS🌷
+                    RUA Miauvenida, BAIRRO Miaulândia na cidade dos Miauszinhos, NÚMERO 321 🐈🏡✨
+                </p>
+                <figure class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.692254026278!2d-46.64035421306055!3d-23.57949380754953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5980e922c853%3A0x7a4adee145b852c6!2sGateria%20Cat%20Cafe!5e0!3m2!1spt-BR!2sbr!4v1758977991654!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </figure>
+            </div>  
+           
+        </section>
+        </main>
+        <footer>
+            <div class="container">
+                <small>
+                    <strong>2025</strong>
+                    Miaus e Pizza- tudo por patas   
+                </small>
+                <a href="#"> ⇡ Ir para o topo </a>
+            </div>
+        </footer>
+</body>
+</html>
